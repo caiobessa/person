@@ -60,6 +60,18 @@ Start the app
 }
 ```
 
+- Edit Address: ```POST http://localhost:8080/address```
+```json
+{
+    "id" : 2
+    "person" : {"id" : 1 },
+    "city": "Dublin new",
+    "street": "8 Street new",
+    "postalCode" : "010101",
+    "state": "Dublin new"
+}
+```
+
 - Delete Address by Id: ```DELETE http://localhost:8080/address/{id}```
 
 - List All Person: ```GET http://localhost:8080/person```
